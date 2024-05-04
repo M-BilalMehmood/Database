@@ -103,3 +103,4 @@ D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\Fas
 D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.ComposeEmailAdmin.resources
 D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.AdminProfile.resources
 D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.AdminChangePass.resources
+D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.sourcelink.json
