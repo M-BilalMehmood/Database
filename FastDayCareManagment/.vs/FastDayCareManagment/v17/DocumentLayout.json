@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Github\\Database\\FastDayCareManagment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\adminmailssent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminmailssent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\adminmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,16 +63,8 @@
       "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminmailssent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\adminmailssent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminmailssent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\adminmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\adminmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -194,11 +194,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -271,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AdminProfile.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminProfile.cs",
               "RelativeDocumentMoniker": "AdminProfile.cs",
@@ -306,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ComposeEmailAdmin.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ComposeEmailAdmin.cs",
               "RelativeDocumentMoniker": "ComposeEmailAdmin.cs",
@@ -329,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AdminMailsSent.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminMailsSent.cs",
               "RelativeDocumentMoniker": "AdminMailsSent.cs",
@@ -337,18 +337,20 @@
               "RelativeToolTip": "AdminMailsSent.cs",
               "ViewState": "AQIAAEsAAAAAAAAAAIAwwGcAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T09:12:55.521Z"
+              "WhenOpened": "2024-05-04T09:12:55.521Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "AdminMailsSent.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminMailsSent.cs",
               "RelativeDocumentMoniker": "AdminMailsSent.cs",
               "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminMailsSent.cs [Design]",
               "RelativeToolTip": "AdminMailsSent.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T09:11:39.072Z"
+              "WhenOpened": "2024-05-04T09:11:39.072Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -360,11 +362,12 @@
               "RelativeToolTip": "AdminMails.Designer.cs",
               "ViewState": "AQIAABUBAAAAAAAAAAAIwC0BAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T08:28:36.31Z"
+              "WhenOpened": "2024-05-04T08:28:36.31Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AdminMails.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminMails.cs",
               "RelativeDocumentMoniker": "AdminMails.cs",
@@ -372,18 +375,20 @@
               "RelativeToolTip": "AdminMails.cs",
               "ViewState": "AQIAAEcAAAAAAAAAAAASwGAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T07:56:41.43Z"
+              "WhenOpened": "2024-05-04T07:56:41.43Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "AdminMails.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminMails.cs",
               "RelativeDocumentMoniker": "AdminMails.cs",
               "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminMails.cs [Design]",
               "RelativeToolTip": "AdminMails.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T07:37:57.482Z"
+              "WhenOpened": "2024-05-04T07:37:57.482Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -469,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "StaffAdmin.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\StaffAdmin.cs",
               "RelativeDocumentMoniker": "StaffAdmin.cs",
@@ -481,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "StaffAdmin.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\StaffAdmin.cs",
               "RelativeDocumentMoniker": "StaffAdmin.cs",
@@ -504,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ChildrenAdmin.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ChildrenAdmin.cs",
               "RelativeDocumentMoniker": "ChildrenAdmin.cs",
@@ -516,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ChildrenAdmin.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ChildrenAdmin.cs",
               "RelativeDocumentMoniker": "ChildrenAdmin.cs",
@@ -551,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "EnrollmentAdmin.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\EnrollmentAdmin.cs",
               "RelativeDocumentMoniker": "EnrollmentAdmin.cs",
@@ -563,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "EnrollmentAdmin.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\EnrollmentAdmin.cs",
               "RelativeDocumentMoniker": "EnrollmentAdmin.cs",
@@ -643,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "editAnnouncements.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\editAnnouncements.cs",
               "RelativeDocumentMoniker": "editAnnouncements.cs",
@@ -654,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AdminAnnouncments.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminAnnouncments.cs",
               "RelativeDocumentMoniker": "AdminAnnouncments.cs",
@@ -713,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AdminAnnouncments.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminAnnouncments.cs",
               "RelativeDocumentMoniker": "AdminAnnouncments.cs",

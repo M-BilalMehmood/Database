@@ -249,7 +249,7 @@
             // 
             button6.BackColor = Color.FromArgb(130, 192, 204);
             button6.FlatAppearance.BorderSize = 0;
-            button6.FlatAppearance.MouseOverBackColor = Color.FromArgb(130, 192, 204);
+            button6.FlatAppearance.MouseOverBackColor = Color.FromArgb(22, 105, 122);
             button6.FlatStyle = FlatStyle.Flat;
             button6.Location = new Point(1088, 167);
             button6.Name = "button6";
