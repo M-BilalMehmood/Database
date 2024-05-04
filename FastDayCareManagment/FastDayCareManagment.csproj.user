@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="addAnnouncement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="addStaffMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminAnnouncments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminChangePass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminMails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminMailsSent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChildrenAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ComposeEmailAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="editAnnouncements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="editStaffAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EnrollmentAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastDayCareManagment", "FastDayCareManagment.csproj", "{847D5EEB-F0D3-4B83-A431-D43F79A2609A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{847D5EEB-F0D3-4B83-A431-D43F79A2609A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847D5EEB-F0D3-4B83-A431-D43F79A2609A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847D5EEB-F0D3-4B83-A431-D43F79A2609A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847D5EEB-F0D3-4B83-A431-D43F79A2609A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {882E7D14-1169-4060-90F8-CD7D7C845643}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,775 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\Database\\FastDayCareManagment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\adminannouncments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminannouncments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\adminannouncments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminannouncments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\staffadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:staffadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\staffadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:staffadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\enrollmentadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:enrollmentadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\enrollmentadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:enrollmentadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\editannouncements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:editannouncements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\composeemailadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:composeemailadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\childrenadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:childrenadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\childrenadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:childrenadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|d:\\github\\database\\fastdaycaremanagment\\adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\adminmailssent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminmailssent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\adminmailssent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminmailssent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\adminmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\adminmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminmails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|d:\\github\\database\\fastdaycaremanagment\\adminchangepass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminchangepass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|d:\\github\\database\\fastdaycaremanagment\\adminchangepass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminchangepass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|d:\\github\\database\\fastdaycaremanagment\\adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|d:\\github\\database\\fastdaycaremanagment\\adminprofile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminprofile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|d:\\github\\database\\fastdaycaremanagment\\adminchangepass.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminchangepass.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\adminmails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminmails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\composeemailadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:composeemailadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\childrenadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:childrenadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\composeemailadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:composeemailadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\addstaffmember.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:addstaffmember.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\addstaffmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:addstaffmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\staffadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:staffadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\addannouncement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:addannouncement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\editstaffadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:editstaffadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\editstaffadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:editstaffadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\addstaffmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:addstaffmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\editstaffadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:editstaffadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\addannouncement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:addannouncement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\enrollmentadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:enrollmentadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\editannouncements.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:editannouncements.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\adminannouncments.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:adminannouncments.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\addannouncement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:addannouncement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|D:\\Github\\Database\\FastDayCareManagment\\editannouncements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:editannouncements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 208,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 44,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:59:16.288Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdminChangePass.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminChangePass.Designer.cs",
+              "RelativeDocumentMoniker": "AdminChangePass.Designer.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminChangePass.Designer.cs",
+              "RelativeToolTip": "AdminChangePass.Designer.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAmwHEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T19:44:46.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminChangePass.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminChangePass.cs",
+              "RelativeDocumentMoniker": "AdminChangePass.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminChangePass.cs",
+              "RelativeToolTip": "AdminChangePass.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAASwEIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T19:41:40.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminChangePass.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminChangePass.cs",
+              "RelativeDocumentMoniker": "AdminChangePass.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminChangePass.cs [Design]",
+              "RelativeToolTip": "AdminChangePass.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T19:37:35.825Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminProfile.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminProfile.Designer.cs",
+              "RelativeDocumentMoniker": "AdminProfile.Designer.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminProfile.Designer.cs",
+              "RelativeToolTip": "AdminProfile.Designer.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAmwJQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T19:13:57.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminProfile.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminProfile.cs",
+              "RelativeDocumentMoniker": "AdminProfile.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminProfile.cs",
+              "RelativeToolTip": "AdminProfile.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwDwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T18:48:48.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminProfile.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminProfile.cs",
+              "RelativeDocumentMoniker": "AdminProfile.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminProfile.cs [Design]",
+              "RelativeToolTip": "AdminProfile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T18:06:27.945Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ComposeEmailAdmin.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ComposeEmailAdmin.cs",
+              "RelativeDocumentMoniker": "ComposeEmailAdmin.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ComposeEmailAdmin.cs",
+              "RelativeToolTip": "ComposeEmailAdmin.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwB0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T15:42:35.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ComposeEmailAdmin.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ComposeEmailAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "ComposeEmailAdmin.Designer.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ComposeEmailAdmin.Designer.cs",
+              "RelativeToolTip": "ComposeEmailAdmin.Designer.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAmwGoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T15:27:01.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ComposeEmailAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ComposeEmailAdmin.cs",
+              "RelativeDocumentMoniker": "ComposeEmailAdmin.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ComposeEmailAdmin.cs [Design]",
+              "RelativeToolTip": "ComposeEmailAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T15:03:15.389Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\RegisterController.cs",
+              "RelativeDocumentMoniker": "RegisterController.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\RegisterController.cs",
+              "RelativeToolTip": "RegisterController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwE0AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:29:07.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminMailsSent.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminMailsSent.cs",
+              "RelativeDocumentMoniker": "AdminMailsSent.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminMailsSent.cs",
+              "RelativeToolTip": "AdminMailsSent.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAIAwwGcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:12:55.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminMailsSent.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminMailsSent.cs",
+              "RelativeDocumentMoniker": "AdminMailsSent.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminMailsSent.cs [Design]",
+              "RelativeToolTip": "AdminMailsSent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:11:39.072Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminMails.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminMails.Designer.cs",
+              "RelativeDocumentMoniker": "AdminMails.Designer.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminMails.Designer.cs",
+              "RelativeToolTip": "AdminMails.Designer.cs",
+              "ViewState": "AQIAABUBAAAAAAAAAAAIwC0BAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T08:28:36.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminMails.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminMails.cs",
+              "RelativeDocumentMoniker": "AdminMails.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminMails.cs",
+              "RelativeToolTip": "AdminMails.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAASwGAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T07:56:41.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminMails.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminMails.cs",
+              "RelativeDocumentMoniker": "AdminMails.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminMails.cs [Design]",
+              "RelativeToolTip": "AdminMails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T07:37:57.482Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "editStaffAdmin.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\editStaffAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "editStaffAdmin.Designer.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\editStaffAdmin.Designer.cs",
+              "RelativeToolTip": "editStaffAdmin.Designer.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAUwLgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T05:58:16.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "editStaffAdmin.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\editStaffAdmin.cs",
+              "RelativeDocumentMoniker": "editStaffAdmin.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\editStaffAdmin.cs",
+              "RelativeToolTip": "editStaffAdmin.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwB0AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T05:58:10.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "editStaffAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\editStaffAdmin.cs",
+              "RelativeDocumentMoniker": "editStaffAdmin.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\editStaffAdmin.cs [Design]",
+              "RelativeToolTip": "editStaffAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T05:57:17.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "addStaffMember.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\addStaffMember.Designer.cs",
+              "RelativeDocumentMoniker": "addStaffMember.Designer.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\addStaffMember.Designer.cs",
+              "RelativeToolTip": "addStaffMember.Designer.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAowBYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T04:32:31.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "StaffAdmin.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\StaffAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "StaffAdmin.Designer.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\StaffAdmin.Designer.cs",
+              "RelativeToolTip": "StaffAdmin.Designer.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAkwD0BAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T04:28:53.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "addStaffMember.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\addStaffMember.cs",
+              "RelativeDocumentMoniker": "addStaffMember.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\addStaffMember.cs",
+              "RelativeToolTip": "addStaffMember.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T04:13:33.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "addStaffMember.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\addStaffMember.cs",
+              "RelativeDocumentMoniker": "addStaffMember.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\addStaffMember.cs [Design]",
+              "RelativeToolTip": "addStaffMember.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T04:11:13.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaffAdmin.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\StaffAdmin.cs",
+              "RelativeDocumentMoniker": "StaffAdmin.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\StaffAdmin.cs",
+              "RelativeToolTip": "StaffAdmin.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAIAwwIsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T03:50:32.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaffAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\StaffAdmin.cs",
+              "RelativeDocumentMoniker": "StaffAdmin.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\StaffAdmin.cs [Design]",
+              "RelativeToolTip": "StaffAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T03:48:20.629Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ChildrenAdmin.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ChildrenAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "ChildrenAdmin.Designer.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ChildrenAdmin.Designer.cs",
+              "RelativeToolTip": "ChildrenAdmin.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T03:29:27.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChildrenAdmin.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ChildrenAdmin.cs",
+              "RelativeDocumentMoniker": "ChildrenAdmin.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ChildrenAdmin.cs",
+              "RelativeToolTip": "ChildrenAdmin.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAIAwwFoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T03:29:12.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChildrenAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ChildrenAdmin.cs",
+              "RelativeDocumentMoniker": "ChildrenAdmin.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ChildrenAdmin.cs [Design]",
+              "RelativeToolTip": "ChildrenAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T03:23:37.983Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminDashboard.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminDashboard.Designer.cs",
+              "RelativeDocumentMoniker": "AdminDashboard.Designer.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminDashboard.Designer.cs",
+              "RelativeToolTip": "AdminDashboard.Designer.cs",
+              "ViewState": "AQIAAJYBAAAAAAAAAAAIwJ0BAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T01:38:55.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EnrollmentAdmin.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\EnrollmentAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "EnrollmentAdmin.Designer.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\EnrollmentAdmin.Designer.cs",
+              "RelativeToolTip": "EnrollmentAdmin.Designer.cs",
+              "ViewState": "AQIAADsBAAAAAAAAAAAIwF8BAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T23:25:35.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnrollmentAdmin.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\EnrollmentAdmin.cs",
+              "RelativeDocumentMoniker": "EnrollmentAdmin.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\EnrollmentAdmin.cs",
+              "RelativeToolTip": "EnrollmentAdmin.cs",
+              "ViewState": "AQIAANEAAAAAAAAAAIAwwO0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T23:24:03.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnrollmentAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\EnrollmentAdmin.cs",
+              "RelativeDocumentMoniker": "EnrollmentAdmin.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\EnrollmentAdmin.cs [Design]",
+              "RelativeToolTip": "EnrollmentAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T23:18:26.518Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminDashboard.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "AdminDashboard.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminDashboard.cs",
+              "RelativeToolTip": "AdminDashboard.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAIAxwHcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T21:48:26.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminDashboard.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "AdminDashboard.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminDashboard.cs [Design]",
+              "RelativeToolTip": "AdminDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T21:48:23.286Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\Register.cs",
+              "RelativeDocumentMoniker": "Register.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\Register.cs [Design]",
+              "RelativeToolTip": "Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T20:37:04.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\Login.cs [Design]",
+              "RelativeToolTip": "Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T20:36:01.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "editAnnouncements.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\editAnnouncements.Designer.cs",
+              "RelativeDocumentMoniker": "editAnnouncements.Designer.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\editAnnouncements.Designer.cs",
+              "RelativeToolTip": "editAnnouncements.Designer.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAwFIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T20:22:57.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "editAnnouncements.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\editAnnouncements.cs",
+              "RelativeDocumentMoniker": "editAnnouncements.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\editAnnouncements.cs",
+              "RelativeToolTip": "editAnnouncements.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA4wC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T20:21:57.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "editAnnouncements.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\editAnnouncements.cs",
+              "RelativeDocumentMoniker": "editAnnouncements.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\editAnnouncements.cs [Design]",
+              "RelativeToolTip": "editAnnouncements.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T20:21:02.108Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminAnnouncments.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminAnnouncments.cs",
+              "RelativeDocumentMoniker": "AdminAnnouncments.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminAnnouncments.cs [Design]",
+              "RelativeToolTip": "AdminAnnouncments.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T15:29:37.163Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "addAnnouncement.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\addAnnouncement.Designer.cs",
+              "RelativeDocumentMoniker": "addAnnouncement.Designer.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\addAnnouncement.Designer.cs",
+              "RelativeToolTip": "addAnnouncement.Designer.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAIwC8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T17:26:53.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "addAnnouncement.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\addAnnouncement.cs",
+              "RelativeDocumentMoniker": "addAnnouncement.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\addAnnouncement.cs",
+              "RelativeToolTip": "addAnnouncement.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wC8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T17:26:42.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "addAnnouncement.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\addAnnouncement.cs",
+              "RelativeDocumentMoniker": "addAnnouncement.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\addAnnouncement.cs [Design]",
+              "RelativeToolTip": "addAnnouncement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T17:21:02.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AdminAnnouncments.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminAnnouncments.Designer.cs",
+              "RelativeDocumentMoniker": "AdminAnnouncments.Designer.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminAnnouncments.Designer.cs",
+              "RelativeToolTip": "AdminAnnouncments.Designer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwPgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T15:34:48.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminAnnouncments.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminAnnouncments.cs",
+              "RelativeDocumentMoniker": "AdminAnnouncments.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminAnnouncments.cs",
+              "RelativeToolTip": "AdminAnnouncments.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAIAwwIsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T15:33:58.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\AdminController.cs",
+              "RelativeDocumentMoniker": "AdminController.cs",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\AdminController.cs",
+              "RelativeToolTip": "AdminController.cs",
+              "ViewState": "AQIAAJoDAAAAAAAAAAA0wMYDAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:47:04.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
