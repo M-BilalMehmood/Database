@@ -50,5 +50,33 @@ namespace FastDayCareManagment
                 this.Hide();
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ParentEnrollment parentEnrollment = new ParentEnrollment();
+            parentEnrollment.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ParentAnnouncements parentAnnouncements = new ParentAnnouncements();
+            parentAnnouncements.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ParentDashboard parentDashboard = new ParentDashboard();
+            parentDashboard.Show();
+            this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            ParentProfile parentProfile = new ParentProfile();
+            parentProfile.Show();
+            this.Hide();
+        }
     }
 }

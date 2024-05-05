@@ -513,7 +513,7 @@ namespace FastDayCareManagment
                         int childID = Convert.ToInt32(insertChildCommand.ExecuteScalar());
 
                         // Insert enrollment request
-                        string insertEnrollmentQuery = "INSERT INTO Enrollment (EnrollmentDate, ChildID, StartDate, EndDate, [Status], ClassroomID) VALUES (@EnrollmentDate, @ChildID, @StartDate, @EndDate, 'Pending', @ClassroomID)";
+                        string insertEnrollmentQuery = "INSERT INTO Enrollment (EnrollmentDate, ChildID, StartDate, EndDate, [Status], ClassroomID) VALUES (@EnrollmentDate, @ChildID, @StartDate, @EndDate, 'Waiting', @ClassroomID)";
                         SqlCommand insertEnrollmentCommand = new SqlCommand(insertEnrollmentQuery, connection);
                         insertEnrollmentCommand.Parameters.AddWithValue("@EnrollmentDate", DateTime.Now);
                         insertEnrollmentCommand.Parameters.AddWithValue("@ChildID", childID);

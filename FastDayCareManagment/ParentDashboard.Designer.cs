@@ -392,7 +392,6 @@
             Controls.Add(dataGridView1);
             Controls.Add(Dashboard);
             Controls.Add(panel1);
-            Name = "ParentDashboard";
             Text = "ParentDashboard";
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

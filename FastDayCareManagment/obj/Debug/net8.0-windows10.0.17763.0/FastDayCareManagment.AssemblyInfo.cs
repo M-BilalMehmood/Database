@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FastDayCareManagment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+509d46c61ce4ce24e1084abdb738290eb134dd34")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddae7b52035be76ce969a019d227536cbc88659b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FastDayCareManagment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FastDayCareManagment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

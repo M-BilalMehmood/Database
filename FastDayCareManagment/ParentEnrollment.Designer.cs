@@ -61,6 +61,7 @@
             pictureBox2.Size = new Size(75, 80);
             pictureBox2.TabIndex = 14;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // panel1
             // 
@@ -91,6 +92,7 @@
             button11.TabIndex = 22;
             button11.Text = "Mails";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // button4
             // 
@@ -106,6 +108,7 @@
             button4.TabIndex = 9;
             button4.Text = "LogOut";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button2
             // 
@@ -121,6 +124,7 @@
             button2.TabIndex = 7;
             button2.Text = "Announcments";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -151,6 +155,7 @@
             button1.TabIndex = 6;
             button1.Text = "Home";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label3
             // 
