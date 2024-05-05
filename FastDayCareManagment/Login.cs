@@ -89,15 +89,13 @@ namespace FastDayCareManagment
                     this.Hide();
                     break;
                 case "Parent":
-                    // Navigate to parent panel
-                    //send message of successful login
-                    MessageBox.Show("Login Successful");
-                    //ParentDashboard parentDashboard = new ParentDashboard();
-                    //parentDashboard.Show();
-                    //this.Hide();
+                    ParentController parentController = new ParentController();
+                    parentController.LogLogin(email);
+                    ParentDashboard parentDashboard = new ParentDashboard();
+                    parentDashboard.Show();
+                    this.Hide();
                     break;
                 default:
-                    // Handle invalid credentials
                     MessageBox.Show("Invalid email or password. Please try again.");
                     break;
             }

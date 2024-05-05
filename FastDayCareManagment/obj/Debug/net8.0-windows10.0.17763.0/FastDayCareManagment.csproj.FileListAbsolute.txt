@@ -113,3 +113,6 @@ D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\Fas
 D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.StaffMailSent.resources
 D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.StaffChangePass.resources
 D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.StaffProfile.resources
+D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.ParentDashboard.resources
+D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.ParentAnnouncements.resources
+D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.ParentMail.resources
