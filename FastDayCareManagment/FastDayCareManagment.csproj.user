@@ -49,5 +49,8 @@
     <Compile Update="StaffAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="StaffDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

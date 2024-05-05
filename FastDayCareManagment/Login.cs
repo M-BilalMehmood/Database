@@ -67,32 +67,26 @@ namespace FastDayCareManagment
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            // Retrieve the email and password from the textboxes
             string email = textBox1.Text;
             string password = textBox2.Text;
 
-            // Instantiate the LoginController
             LoginController loginController = new LoginController();
-
-            // Get the role of the user
             string role = loginController.GetUserRole(email, password);
-
-            // Check the role and navigate accordingly
             switch (role)
             {
                 case "Admin":
-                    // Navigate to admin panel
                     AdminController adminController = new AdminController();
                     adminController.LogLogin(email);
                     AdminDashboard1 adminDashboard = new AdminDashboard1();
                     adminDashboard.Show();
-                    this.Hide(); // Hide the current login form
+                    this.Hide();
                     break;
                 case "Staff":
-                    // Navigate to staff panel
-                    //StaffDashboard staffDashboard = new StaffDashboard();
-                    //staffDashboard.Show();
-                    //this.Hide(); // Hide the current login form
+                    StaffController staffController = new StaffController();
+                    staffController.LogLogin(email);
+                    StaffDash staffDashboard = new StaffDash();
+                    staffDashboard.Show();
+                    this.Hide();
                     break;
                 case "Parent":
                     // Navigate to parent panel
@@ -100,7 +94,7 @@ namespace FastDayCareManagment
                     MessageBox.Show("Login Successful");
                     //ParentDashboard parentDashboard = new ParentDashboard();
                     //parentDashboard.Show();
-                    //this.Hide(); // Hide the current login form
+                    //this.Hide();
                     break;
                 default:
                     // Handle invalid credentials

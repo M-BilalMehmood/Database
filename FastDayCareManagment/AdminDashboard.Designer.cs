@@ -326,6 +326,7 @@
             // dateTimePicker1
             // 
             dateTimePicker1.CalendarFont = new Font("Century Gothic", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dateTimePicker1.Enabled = false;
             dateTimePicker1.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dateTimePicker1.Location = new Point(882, 99);
             dateTimePicker1.Name = "dateTimePicker1";
