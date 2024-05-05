@@ -44,7 +44,9 @@ namespace FastDayCareManagment
             ParentEnrolmentReq parentEnrolmentReq = new ParentEnrolmentReq();
             parentEnrolmentReq.Show();
 
+            LoadEnrolledChildren();
             LoadPendingEnrollments();
+            LoadRejectedEnrollments();
         }
 
         private void button1_Click(object sender, EventArgs e)

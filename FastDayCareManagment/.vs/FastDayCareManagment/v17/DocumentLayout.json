@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Github\\Database\\FastDayCareManagment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|d:\\github\\database\\fastdaycaremanagment\\parentenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:parentenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|d:\\github\\database\\fastdaycaremanagment\\parentenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:parentenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|d:\\github\\database\\fastdaycaremanagment\\parentdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:parentdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|d:\\github\\database\\fastdaycaremanagment\\parentannouncements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:parentannouncements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|d:\\github\\database\\fastdaycaremanagment\\parentenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:parentenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|d:\\github\\database\\fastdaycaremanagment\\parentenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|solutionrelative:parentenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{847D5EEB-F0D3-4B83-A431-D43F79A2609A}|FastDayCareManagment.csproj|d:\\github\\database\\fastdaycaremanagment\\parentenrolmentreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -254,7 +254,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 24,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -326,8 +326,8 @@
               "Title": "ParentEnrollment.Designer.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentEnrollment.Designer.cs",
               "RelativeDocumentMoniker": "ParentEnrollment.Designer.cs",
-              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentEnrollment.Designer.cs*",
-              "RelativeToolTip": "ParentEnrollment.Designer.cs*",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentEnrollment.Designer.cs",
+              "RelativeToolTip": "ParentEnrollment.Designer.cs",
               "ViewState": "AQIAALcAAAAAAAAAAAAowOQAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T14:29:03.344Z",
@@ -335,25 +335,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ParentEnrollment.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentEnrollment.cs",
               "RelativeDocumentMoniker": "ParentEnrollment.cs",
-              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentEnrollment.cs*",
-              "RelativeToolTip": "ParentEnrollment.cs*",
-              "ViewState": "AQIAADwAAAAAAAAAAAAEwFUAAAAYAAAA",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentEnrollment.cs",
+              "RelativeToolTip": "ParentEnrollment.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAApwCAAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T14:19:34.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "ParentEnrollment.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentEnrollment.cs",
               "RelativeDocumentMoniker": "ParentEnrollment.cs",
-              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentEnrollment.cs [Design]*",
-              "RelativeToolTip": "ParentEnrollment.cs [Design]*",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentEnrollment.cs [Design]",
+              "RelativeToolTip": "ParentEnrollment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T13:58:13.116Z",
               "EditorCaption": " [Design]"
@@ -452,8 +452,8 @@
               "Title": "ParentMailSent.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentMailSent.cs",
               "RelativeDocumentMoniker": "ParentMailSent.cs",
-              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentMailSent.cs*",
-              "RelativeToolTip": "ParentMailSent.cs*",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentMailSent.cs",
+              "RelativeToolTip": "ParentMailSent.cs",
               "ViewState": "AQIAADUAAAAAAAAAAAAvwE8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T13:21:16.118Z",
@@ -465,8 +465,8 @@
               "Title": "ParentMailSent.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentMailSent.cs",
               "RelativeDocumentMoniker": "ParentMailSent.cs",
-              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentMailSent.cs [Design]*",
-              "RelativeToolTip": "ParentMailSent.cs [Design]*",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentMailSent.cs [Design]",
+              "RelativeToolTip": "ParentMailSent.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T13:19:09.311Z",
               "EditorCaption": " [Design]"
@@ -477,8 +477,8 @@
               "Title": "ParentMail.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentMail.cs",
               "RelativeDocumentMoniker": "ParentMail.cs",
-              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentMail.cs*",
-              "RelativeToolTip": "ParentMail.cs*",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentMail.cs",
+              "RelativeToolTip": "ParentMail.cs",
               "ViewState": "AQIAADUAAAAAAAAAAAAvwE4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T13:12:29.165Z",
@@ -490,8 +490,8 @@
               "Title": "ParentAnnouncements.Designer.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentAnnouncements.Designer.cs",
               "RelativeDocumentMoniker": "ParentAnnouncements.Designer.cs",
-              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentAnnouncements.Designer.cs*",
-              "RelativeToolTip": "ParentAnnouncements.Designer.cs*",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentAnnouncements.Designer.cs",
+              "RelativeToolTip": "ParentAnnouncements.Designer.cs",
               "ViewState": "AQIAADEAAAAAAAAAAAASwEwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T13:10:43.936Z",
@@ -503,20 +503,20 @@
               "Title": "ParentMail.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentMail.cs",
               "RelativeDocumentMoniker": "ParentMail.cs",
-              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentMail.cs [Design]*",
-              "RelativeToolTip": "ParentMail.cs [Design]*",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentMail.cs [Design]",
+              "RelativeToolTip": "ParentMail.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T13:09:44.231Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ParentAnnouncements.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentAnnouncements.cs",
               "RelativeDocumentMoniker": "ParentAnnouncements.cs",
-              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentAnnouncements.cs*",
-              "RelativeToolTip": "ParentAnnouncements.cs*",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentAnnouncements.cs",
+              "RelativeToolTip": "ParentAnnouncements.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAEwDkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T13:00:37.099Z",
@@ -524,19 +524,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ParentAnnouncements.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentAnnouncements.cs",
               "RelativeDocumentMoniker": "ParentAnnouncements.cs",
-              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentAnnouncements.cs [Design]*",
-              "RelativeToolTip": "ParentAnnouncements.cs [Design]*",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentAnnouncements.cs [Design]",
+              "RelativeToolTip": "ParentAnnouncements.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T12:56:18.432Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ParentDashboard.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentDashboard.cs",
               "RelativeDocumentMoniker": "ParentDashboard.cs",
@@ -553,8 +553,8 @@
               "Title": "ParentController.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentController.cs",
               "RelativeDocumentMoniker": "ParentController.cs",
-              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentController.cs*",
-              "RelativeToolTip": "ParentController.cs*",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentController.cs",
+              "RelativeToolTip": "ParentController.cs",
               "ViewState": "AQIAAOYBAAAAAAAAAAAowAMCAADmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T12:09:09.254Z",
@@ -562,12 +562,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ParentDashboard.Designer.cs",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentDashboard.Designer.cs",
               "RelativeDocumentMoniker": "ParentDashboard.Designer.cs",
-              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentDashboard.Designer.cs*",
-              "RelativeToolTip": "ParentDashboard.Designer.cs*",
+              "ToolTip": "D:\\Github\\Database\\FastDayCareManagment\\ParentDashboard.Designer.cs",
+              "RelativeToolTip": "ParentDashboard.Designer.cs",
               "ViewState": "AQIAAHwBAAAAAAAAAAAAAIkBAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T12:00:30.082Z",
@@ -575,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ParentDashboard.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Database\\FastDayCareManagment\\ParentDashboard.cs",
               "RelativeDocumentMoniker": "ParentDashboard.cs",
