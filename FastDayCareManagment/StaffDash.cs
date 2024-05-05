@@ -79,5 +79,12 @@ namespace FastDayCareManagment
                 // User clicked 'No', do nothing or handle accordingly
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            StaffAnnouncements staffAnnouncements = new StaffAnnouncements();
+            staffAnnouncements.Show();
+            this.Hide();
+        }
     }
 }

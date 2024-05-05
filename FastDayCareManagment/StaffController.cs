@@ -5,6 +5,9 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.ComponentModel.Design.ObjectSelectorEditor;
 
 namespace FastDayCareManagment
 {
@@ -99,8 +102,7 @@ namespace FastDayCareManagment
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     string query = @"
-                                    SELECT 
-                                        a.AnnouncementID,
+                                    SELECT
                                         a.[DateTime], 
                                         CONCAT('An announcement made by ', ad.[Name], ': ', a.[Message]) AS Announcement
                                     FROM 
@@ -265,6 +267,248 @@ namespace FastDayCareManagment
                 Console.WriteLine("Error retrieving StaffID: " + ex.Message);
             }
             return staffId;
+        }
+
+        public DataTable StudentsAttendance( DateTime selectedDate)
+        {
+            try
+            {
+                // Query to retrieve students registered in the selected class
+                string query = @"
+                    SELECT C.ChildID, C.Name AS StudentName
+                    FROM Child C
+                    INNER JOIN Enrollment E ON C.ChildID = E.ChildID
+                    WHERE @SelectedDate BETWEEN E.StartDate AND E.EndDate
+                    AND E.Status NOT IN ('Waiting', 'UnEnrolled', 'Rejected')";
+
+                // Create a DataTable to store the results
+                DataTable studentTable = new DataTable();
+
+                // Open a connection to the database
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    // Create a SqlCommand object with the query and connection
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        // Add parameters to the command
+                        command.Parameters.AddWithValue("@SelectedDate", selectedDate);
+
+                        // Create a SqlDataAdapter to fill the DataTable
+                        SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                        // Fill the DataTable with the results
+                        adapter.Fill(studentTable);
+                    }
+                }
+
+                return studentTable;
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions
+                Console.WriteLine("Error loading students for attendance: " + ex.Message);
+                return null;
+            }
+        }
+
+        public bool UpdateAttendance(int enrollmentID, DateTime selectedDate, bool isPresent)
+        {
+            try
+            {
+                // Convert boolean value to "Present" or "Absent" string
+                string attendanceStatus = isPresent ? "Present" : "Absent";
+
+                // Check if there is already an attendance record for the given enrollmentID and date
+                bool recordExists = CheckAttendanceRecordExists(enrollmentID, selectedDate);
+
+                // Construct the SQL query
+                string query = string.Empty;
+
+                if (recordExists)
+                {
+                    // Update the existing attendance record
+                    query = @"
+                            UPDATE AttendanceRecord
+                            SET [Status] = @Status
+                            WHERE EnrollmentID = @EnrollmentID AND [Date] = @Date";
+                }
+                else
+                {
+                    // Insert a new attendance record
+                    query = @"
+                            INSERT INTO AttendanceRecord (EnrollmentID, [Date], [Status])
+                            VALUES (@EnrollmentID, @Date, @Status)";
+                }
+
+                // Open a connection to the database
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    // Create a SqlCommand object with the query and connection
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        // Add parameters to the command
+                        command.Parameters.AddWithValue("@EnrollmentID", enrollmentID);
+                        command.Parameters.AddWithValue("@Date", selectedDate);
+                        command.Parameters.AddWithValue("@Status", attendanceStatus);
+
+                        // Execute the SQL command
+                        int rowsAffected = command.ExecuteNonQuery();
+
+                        // Check if any rows were affected
+                        if (rowsAffected > 0)
+                        {
+                            return true; // Attendance record updated successfully
+                        }
+                        else
+                        {
+                            return false; // No rows were affected
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception or handle it accordingly
+                Console.WriteLine("Error updating attendance: " + ex.Message);
+                return false; // Failed to update attendance record
+            }
+        }
+
+        private bool CheckAttendanceRecordExists(int enrollmentID, DateTime selectedDate)
+        {
+            // Construct the SQL query to check if an attendance record exists
+            string query = @"
+                            SELECT COUNT(*) FROM AttendanceRecord 
+                            WHERE EnrollmentID = @EnrollmentID AND [Date] = @Date";
+
+            // Open a connection to the database
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Create a SqlCommand object with the query and connection
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    // Add parameters to the command
+                    command.Parameters.AddWithValue("@EnrollmentID", enrollmentID);
+                    command.Parameters.AddWithValue("@Date", selectedDate);
+
+                    // Execute the SQL command and get the count
+                    int count = (int)command.ExecuteScalar();
+
+                    // If count > 0, record exists; otherwise, it doesn't
+                    return count > 0;
+                }
+            }
+        }
+
+        public DataTable GetStudentsByClassSection(string className)
+        {
+            try
+            {
+                string query = @"
+                                SELECT 
+                                    Child.ChildID,  
+                                    Child.Name,  
+                                    Child.DateOfBirth, 
+                                    ISNULL(
+                                        (
+                                            SELECT 
+                                                SUM(CASE WHEN AttendanceRecord.Status = 'Present' THEN 1 ELSE 0 END) 
+                                            FROM 
+                                                AttendanceRecord 
+                                            WHERE 
+                                                AttendanceRecord.EnrollmentID = Enrollment.EnrollmentID
+                                        ), 0
+                                    ) AS PresentCount, 
+                                    ISNULL(
+                                        (
+                                            SELECT 
+                                                COUNT(*) 
+                                            FROM 
+                                                AttendanceRecord 
+                                            WHERE 
+                                                AttendanceRecord.EnrollmentID = Enrollment.EnrollmentID
+                                        ), 0
+                                    ) AS TotalAttendanceCount, 
+                                    CASE 
+                                        WHEN ISNULL(
+                                            (
+                                                SELECT 
+                                                    COUNT(*) 
+                                                FROM 
+                                                    AttendanceRecord 
+                                                WHERE 
+                                                    AttendanceRecord.EnrollmentID = Enrollment.EnrollmentID
+                                            ), 0
+                                        ) > 0 
+                                        THEN 
+                                            CAST(
+                                                (
+                                                    ISNULL(
+                                                        (
+                                                            SELECT 
+                                                                SUM(CASE WHEN AttendanceRecord.Status = 'Present' THEN 1 ELSE 0 END) 
+                                                            FROM 
+                                                                AttendanceRecord 
+                                                            WHERE 
+                                                                AttendanceRecord.EnrollmentID = Enrollment.EnrollmentID
+                                                        ), 0
+                                                    ) * 100.0 / 
+                                                    (
+                                                        SELECT 
+                                                            COUNT(*) 
+                                                        FROM 
+                                                            AttendanceRecord 
+                                                        WHERE 
+                                                            AttendanceRecord.EnrollmentID = Enrollment.EnrollmentID
+                                                    )
+                                                ) AS DECIMAL(5, 2)
+                                            ) 
+                                        ELSE 
+                                            0 
+                                    END AS AttendancePercentage 
+                                FROM 
+                                    Child 
+                                INNER JOIN 
+                                    Enrollment ON Child.ChildID = Enrollment.ChildID 
+                                WHERE 
+                                    Enrollment.ClassroomID IN 
+                                        (
+                                            SELECT 
+                                                ClassroomID 
+                                            FROM 
+                                                Classroom 
+                                            WHERE 
+                                                [Name] = @className
+                                        )
+                            ";
+
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        // Use @className as the parameter name
+                        command.Parameters.AddWithValue("@className", className);
+
+                        using (SqlDataAdapter adapter = new SqlDataAdapter(command))
+                        {
+                            DataTable studentTable = new DataTable();
+                            adapter.Fill(studentTable);
+                            return studentTable;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error fetching students by class section: " + ex.Message);
+                return null;
+            }
         }
 
     }

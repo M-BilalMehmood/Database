@@ -49,7 +49,25 @@
     <Compile Update="StaffAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="StaffAnnouncements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffClassInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffComposeMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="StaffDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffMailSent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffmarkAttendance.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
