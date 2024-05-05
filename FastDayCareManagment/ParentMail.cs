@@ -35,5 +35,20 @@ namespace FastDayCareManagment
             DataTable dataTable = parentController.GetReceivedMails();
             RecievedMails.DataSource = dataTable;
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ParentComposeMail parentComposeMail = new ParentComposeMail();
+            parentComposeMail.Show();
+
+            loadRecievedMails();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ParentMailSent parentMailSent = new ParentMailSent();
+            parentMailSent.Show();
+            this.Hide();
+        }
     }
 }

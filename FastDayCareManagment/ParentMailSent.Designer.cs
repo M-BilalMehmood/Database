@@ -103,6 +103,7 @@
             button4.TabIndex = 9;
             button4.Text = "LogOut";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button2
             // 
@@ -185,6 +186,7 @@
             // SentMails
             // 
             SentMails.AllowUserToAddRows = false;
+            SentMails.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             SentMails.BackgroundColor = Color.White;
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = SystemColors.Control;
@@ -215,6 +217,7 @@
             button6.TabIndex = 75;
             button6.Text = "Compose";
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // button5
             // 
@@ -241,6 +244,7 @@
             button7.TabIndex = 71;
             button7.Text = "Recieved";
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // ParentMailSent
             // 

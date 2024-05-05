@@ -75,6 +75,7 @@
             button11.TabIndex = 22;
             button11.Text = "Mails";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // pictureBox2
             // 
@@ -84,6 +85,7 @@
             pictureBox2.Size = new Size(75, 80);
             pictureBox2.TabIndex = 14;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // button4
             // 

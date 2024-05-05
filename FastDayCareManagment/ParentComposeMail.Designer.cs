@@ -1,6 +1,6 @@
 ﻿namespace FastDayCareManagment
 {
-    partial class StaffComposeMail
+    partial class ParentComposeMail
     {
         /// <summary>
         /// Required designer variable.
@@ -44,7 +44,7 @@
             label3.Location = new Point(12, 91);
             label3.Name = "label3";
             label3.Size = new Size(73, 25);
-            label3.TabIndex = 75;
+            label3.TabIndex = 81;
             label3.Text = "Email:";
             // 
             // label2
@@ -55,7 +55,7 @@
             label2.Location = new Point(12, 152);
             label2.Name = "label2";
             label2.Size = new Size(109, 25);
-            label2.TabIndex = 74;
+            label2.TabIndex = 80;
             label2.Text = "Message:";
             // 
             // richTextBox1
@@ -65,7 +65,7 @@
             richTextBox1.Location = new Point(12, 179);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.Size = new Size(623, 289);
-            richTextBox1.TabIndex = 73;
+            richTextBox1.TabIndex = 79;
             richTextBox1.Text = "";
             // 
             // textBox1
@@ -74,7 +74,7 @@
             textBox1.Location = new Point(12, 118);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(623, 27);
-            textBox1.TabIndex = 72;
+            textBox1.TabIndex = 78;
             // 
             // label1
             // 
@@ -85,7 +85,7 @@
             label1.Location = new Point(12, 11);
             label1.Name = "label1";
             label1.Size = new Size(391, 56);
-            label1.TabIndex = 70;
+            label1.TabIndex = 76;
             label1.Text = "Compose Email";
             // 
             // button6
@@ -98,12 +98,12 @@
             button6.Location = new Point(495, 474);
             button6.Name = "button6";
             button6.Size = new Size(139, 36);
-            button6.TabIndex = 71;
+            button6.TabIndex = 77;
             button6.Text = "Send";
             button6.UseVisualStyleBackColor = false;
             button6.Click += button6_Click;
             // 
-            // StaffComposeMail
+            // ParentComposeMail
             // 
             AutoScaleDimensions = new SizeF(7F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -115,9 +115,8 @@
             Controls.Add(textBox1);
             Controls.Add(label1);
             Controls.Add(button6);
-            Name = "StaffComposeMail";
-            Text = "StaffComposeMail";
-            Load += StaffComposeMail_Load;
+            Name = "ParentComposeMail";
+            Text = "ParentComposeMail";
             ResumeLayout(false);
             PerformLayout();
         }

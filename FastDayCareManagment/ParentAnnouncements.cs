@@ -30,7 +30,9 @@ namespace FastDayCareManagment
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            ParentEnrollment parentEnrollment = new ParentEnrollment();
+            parentEnrollment.Show();
+            this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -42,6 +44,20 @@ namespace FastDayCareManagment
                 login.Show();
                 this.Hide();
             }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            ParentMail parentMail = new ParentMail();
+            parentMail.Show();
+            this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            ParentProfile parentProfile = new ParentProfile();
+            parentProfile.Show();
+            this.Hide();
         }
     }
 }

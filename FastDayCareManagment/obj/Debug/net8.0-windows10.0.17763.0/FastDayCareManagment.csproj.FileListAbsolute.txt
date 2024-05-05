@@ -116,3 +116,9 @@ D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\Fas
 D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.ParentDashboard.resources
 D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.ParentAnnouncements.resources
 D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.ParentMail.resources
+D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.ParentComposeMail.resources
+D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.ParentMailSent.resources
+D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.ParentChangePass.resources
+D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.ParentProfile.resources
+D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.ParentEnrollment.resources
+D:\Github\Database\FastDayCareManagment\obj\Debug\net8.0-windows10.0.17763.0\FastDayCareManagment.ParentEnrolmentReq.resources

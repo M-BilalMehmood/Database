@@ -46,13 +46,28 @@
     <Compile Update="ParentAnnouncements.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ParentChangePass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ParentComposeMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ParentDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ParentEnrollment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ParentEnrolmentReq.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ParentMail.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ParentMailSent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ParentProfile.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Register.cs">

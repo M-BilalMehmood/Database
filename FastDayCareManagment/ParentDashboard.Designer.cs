@@ -102,6 +102,7 @@
             button11.TabIndex = 22;
             button11.Text = "Mails";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // pictureBox2
             // 
@@ -111,6 +112,7 @@
             pictureBox2.Size = new Size(75, 80);
             pictureBox2.TabIndex = 14;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // button3
             // 
@@ -126,6 +128,7 @@
             button3.TabIndex = 8;
             button3.Text = "Enrollment";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -389,6 +392,7 @@
             Controls.Add(dataGridView1);
             Controls.Add(Dashboard);
             Controls.Add(panel1);
+            Name = "ParentDashboard";
             Text = "ParentDashboard";
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
