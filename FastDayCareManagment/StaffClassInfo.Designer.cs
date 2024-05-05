@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StaffClassInfo));
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             button5 = new Button();
             pictureBox2 = new PictureBox();
             button3 = new Button();
@@ -62,6 +63,7 @@
             button5.TabIndex = 15;
             button5.Text = "LogOut";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // pictureBox2
             // 
@@ -71,6 +73,7 @@
             pictureBox2.Size = new Size(75, 80);
             pictureBox2.TabIndex = 14;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // button3
             // 
@@ -86,6 +89,7 @@
             button3.TabIndex = 8;
             button3.Text = "Attendance";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -101,6 +105,7 @@
             button2.TabIndex = 7;
             button2.Text = "Announcments";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -116,6 +121,7 @@
             button1.TabIndex = 6;
             button1.Text = "Home";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label1
             // 
@@ -158,7 +164,14 @@
             Announcments.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             Announcments.BackgroundColor = Color.White;
             Announcments.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            Announcments.DefaultCellStyle.Font = new Font("Century Gothic", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Window;
+            dataGridViewCellStyle1.Font = new Font("Century Gothic", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
+            Announcments.DefaultCellStyle = dataGridViewCellStyle1;
             Announcments.Location = new Point(178, 203);
             Announcments.Name = "Announcments";
             Announcments.Size = new Size(1049, 412);
@@ -194,6 +207,7 @@
             button11.TabIndex = 35;
             button11.Text = "Mails";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // button9
             // 

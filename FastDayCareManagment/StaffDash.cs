@@ -86,5 +86,33 @@ namespace FastDayCareManagment
             staffAnnouncements.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            StaffmarkAttendance staffmarkAttendance = new StaffmarkAttendance();
+            staffmarkAttendance.Show();
+            this.Hide();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            StaffClassInfo staffClassInfo = new StaffClassInfo();
+            staffClassInfo.Show();
+            this.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            StaffMail staffMail = new StaffMail();
+            staffMail.Show();
+            this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            StaffProfile staffProfile = new StaffProfile();
+            staffProfile.Show();
+            this.Hide();
+        }
     }
 }

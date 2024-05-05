@@ -61,6 +61,7 @@
             button5.TabIndex = 15;
             button5.Text = "LogOut";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // pictureBox2
             // 
@@ -70,6 +71,7 @@
             pictureBox2.Size = new Size(75, 80);
             pictureBox2.TabIndex = 14;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // button2
             // 
@@ -177,6 +179,7 @@
             button11.TabIndex = 35;
             button11.Text = "Mails";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // button9
             // 
@@ -192,6 +195,7 @@
             button9.TabIndex = 33;
             button9.Text = "Class Info";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // button3
             // 

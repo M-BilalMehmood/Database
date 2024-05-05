@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.ComponentModel.Design.ObjectSelectorEditor;
+using static FastDayCareManagment.AdminController;
 
 namespace FastDayCareManagment
 {
@@ -511,6 +512,198 @@ namespace FastDayCareManagment
             }
         }
 
+        private string loggedInUserEmail()
+        {
+            string loggedInUserEmail = string.Empty; // Default value
+
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    string query = @"
+                                    SELECT TOP 1 Staff.Email
+                                    FROM Logs
+                                    INNER JOIN StaffMember Staff ON Logs.Email = Staff.Email
+                                    ORDER BY Logs.LogDateTime DESC";
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        connection.Open();
+                        object result = command.ExecuteScalar();
+
+                        if (result != null && result != DBNull.Value)
+                        {
+                            return result.ToString();
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle exception
+                MessageBox.Show("An error occurred: " + ex.Message);
+            }
+
+            return loggedInUserEmail;
+        }
+
+        public DataTable GetReceivedMails()
+        {
+            DataTable receivedMailsTable = new DataTable();
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+                    string query = "SELECT SendingDateTime, SenderEmail, [Message] FROM Mails WHERE ReceiverEmail = @ReceiverEmail";
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@ReceiverEmail", loggedInUserEmail());
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(command);
+                    adapter.Fill(receivedMailsTable);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+            }
+
+            return receivedMailsTable;
+        }
+
+        public DataTable GetSentMails()
+        {
+            DataTable sentMailsTable = new DataTable();
+
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+                    string query = "SELECT SendingDateTime, ReceiverEmail, [Message] FROM Mails WHERE SenderEmail = @SenderEmail";
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@SenderEmail", loggedInUserEmail());
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(command);
+                    adapter.Fill(sentMailsTable);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+            }
+
+            return sentMailsTable;
+        }
+
+        public void SendMail(string receiverEmail, string message)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string query = "INSERT INTO Mails (SenderEmail, ReceiverEmail, [Message], SendingDateTime) VALUES (@SenderEmail, @ReceiverEmail, @Message, @SendingDateTime)";
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@SenderEmail", loggedInUserEmail());
+                    command.Parameters.AddWithValue("@ReceiverEmail", receiverEmail);
+                    command.Parameters.AddWithValue("@Message", message);
+                    command.Parameters.AddWithValue("@SendingDateTime", DateTime.Now);
+
+                    command.ExecuteNonQuery();
+                    MessageBox.Show("Mail sent successfully!");
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        public StaffDetails GetLatestStaffDetails()
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string query = @"
+                        SELECT TOP 1 Staff.[Name], Staff.Email
+                        FROM Logs
+                        INNER JOIN StaffMember Staff ON Logs.Email = Staff.Email
+                        ORDER BY Logs.LogDateTime DESC";
+
+                    SqlCommand command = new SqlCommand(query, connection);
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        return new StaffDetails
+                        {
+                            Name = reader["Name"].ToString(),
+                            Email = reader["Email"].ToString()
+                        };
+                    }
+                    else
+                    {
+                        return null;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error fetching admin details: " + ex.Message);
+            }
+        }
+        public class StaffDetails
+        {
+            public string Name { get; set; }
+            public string Email { get; set; }
+        }
+
+        public bool ChangeStaffPassword(string oldPassword, string newPassword)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string query = "SELECT TOP 1 Staff.Email FROM Logs INNER JOIN StaffMember Staff ON Logs.Email = Staff.Email ORDER BY Logs.LogDateTime DESC";
+                    SqlCommand command = new SqlCommand(query, connection);
+                    string adminEmail = command.ExecuteScalar()?.ToString();
+
+                    if (adminEmail != null)
+                    {
+                        // Check if old password matches
+                        query = "SELECT COUNT(*) FROM StaffMember WHERE Email = @Email AND [Password] = @OldPassword";
+                        command = new SqlCommand(query, connection);
+                        command.Parameters.AddWithValue("@Email", adminEmail);
+                        command.Parameters.AddWithValue("@OldPassword", oldPassword);
+                        int count = (int)command.ExecuteScalar();
+
+                        if (count == 1)
+                        {
+                            // Update the password
+                            query = "UPDATE StaffMember SET [Password] = @NewPassword WHERE Email = @Email";
+                            command = new SqlCommand(query, connection);
+                            command.Parameters.AddWithValue("@Email", adminEmail);
+                            command.Parameters.AddWithValue("@NewPassword", newPassword);
+                            int rowsAffected = command.ExecuteNonQuery();
+
+                            return rowsAffected > 0;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error changing password: " + ex.Message);
+            }
+
+            return false;
+        }
     }
 }
 

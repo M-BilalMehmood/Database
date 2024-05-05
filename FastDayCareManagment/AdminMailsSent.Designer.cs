@@ -55,7 +55,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(1004, 55);
+            pictureBox1.Location = new Point(993, 55);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(234, 53);
             pictureBox1.TabIndex = 63;
@@ -67,7 +67,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Century Gothic", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(22, 105, 122);
-            label3.Location = new Point(204, 128);
+            label3.Location = new Point(193, 128);
             label3.Name = "label3";
             label3.Size = new Size(87, 36);
             label3.TabIndex = 62;
@@ -79,7 +79,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Century Gothic", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(255, 166, 43);
-            label1.Location = new Point(198, 37);
+            label1.Location = new Point(187, 37);
             label1.Name = "label1";
             label1.Size = new Size(178, 56);
             label1.TabIndex = 60;
@@ -101,7 +101,7 @@
             RecievedMails.EditMode = DataGridViewEditMode.EditProgrammatically;
             RecievedMails.Font = new Font("Century Gothic", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             RecievedMails.GridColor = Color.FromArgb(255, 166, 43);
-            RecievedMails.Location = new Point(204, 203);
+            RecievedMails.Location = new Point(193, 203);
             RecievedMails.Name = "RecievedMails";
             RecievedMails.Size = new Size(1023, 440);
             RecievedMails.TabIndex = 61;
@@ -251,7 +251,7 @@
             button6.FlatAppearance.BorderSize = 0;
             button6.FlatAppearance.MouseOverBackColor = Color.FromArgb(22, 105, 122);
             button6.FlatStyle = FlatStyle.Flat;
-            button6.Location = new Point(1088, 167);
+            button6.Location = new Point(1077, 167);
             button6.Name = "button6";
             button6.Size = new Size(139, 36);
             button6.TabIndex = 65;
@@ -265,7 +265,7 @@
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatAppearance.MouseOverBackColor = Color.FromArgb(130, 192, 204);
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(343, 167);
+            button2.Location = new Point(332, 167);
             button2.Name = "button2";
             button2.Size = new Size(139, 36);
             button2.TabIndex = 64;
@@ -278,7 +278,7 @@
             button4.FlatAppearance.BorderSize = 0;
             button4.FlatAppearance.MouseOverBackColor = Color.FromArgb(130, 192, 204);
             button4.FlatStyle = FlatStyle.Flat;
-            button4.Location = new Point(204, 167);
+            button4.Location = new Point(193, 167);
             button4.Name = "button4";
             button4.Size = new Size(139, 36);
             button4.TabIndex = 58;

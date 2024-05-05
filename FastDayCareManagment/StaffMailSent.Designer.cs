@@ -41,14 +41,14 @@
             button9 = new Button();
             button3 = new Button();
             label3 = new Label();
-            RecievedMails = new DataGridView();
+            SentMails = new DataGridView();
             button6 = new Button();
             button4 = new Button();
             button7 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)RecievedMails).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)SentMails).BeginInit();
             SuspendLayout();
             // 
             // button5
@@ -65,6 +65,7 @@
             button5.TabIndex = 15;
             button5.Text = "LogOut";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // pictureBox2
             // 
@@ -74,6 +75,7 @@
             pictureBox2.Size = new Size(75, 80);
             pictureBox2.TabIndex = 14;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // button2
             // 
@@ -89,6 +91,7 @@
             button2.TabIndex = 7;
             button2.Text = "Announcments";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -104,6 +107,7 @@
             button1.TabIndex = 6;
             button1.Text = "Home";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label1
             // 
@@ -150,7 +154,7 @@
             button11.FlatStyle = FlatStyle.Flat;
             button11.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button11.ForeColor = Color.Black;
-            button11.Location = new Point(0, 413);
+            button11.Location = new Point(0, 410);
             button11.Name = "button11";
             button11.Size = new Size(140, 45);
             button11.TabIndex = 35;
@@ -171,6 +175,7 @@
             button9.TabIndex = 33;
             button9.Text = "Class Info";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // button3
             // 
@@ -186,6 +191,7 @@
             button3.TabIndex = 8;
             button3.Text = "Attendance";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // label3
             // 
@@ -199,10 +205,10 @@
             label3.TabIndex = 68;
             label3.Text = "Mails";
             // 
-            // RecievedMails
+            // SentMails
             // 
-            RecievedMails.AllowUserToAddRows = false;
-            RecievedMails.BackgroundColor = Color.White;
+            SentMails.AllowUserToAddRows = false;
+            SentMails.BackgroundColor = Color.White;
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = SystemColors.Control;
             dataGridViewCellStyle1.Font = new Font("Century Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -210,15 +216,15 @@
             dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            RecievedMails.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            RecievedMails.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            RecievedMails.EditMode = DataGridViewEditMode.EditProgrammatically;
-            RecievedMails.Font = new Font("Century Gothic", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            RecievedMails.GridColor = Color.FromArgb(255, 166, 43);
-            RecievedMails.Location = new Point(194, 201);
-            RecievedMails.Name = "RecievedMails";
-            RecievedMails.Size = new Size(1023, 440);
-            RecievedMails.TabIndex = 67;
+            SentMails.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            SentMails.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            SentMails.EditMode = DataGridViewEditMode.EditProgrammatically;
+            SentMails.Font = new Font("Century Gothic", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SentMails.GridColor = Color.FromArgb(255, 166, 43);
+            SentMails.Location = new Point(194, 201);
+            SentMails.Name = "SentMails";
+            SentMails.Size = new Size(1023, 440);
+            SentMails.TabIndex = 67;
             // 
             // button6
             // 
@@ -232,6 +238,7 @@
             button6.TabIndex = 70;
             button6.Text = "Compose";
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // button4
             // 
@@ -258,6 +265,7 @@
             button7.TabIndex = 66;
             button7.Text = "Recieved";
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // StaffMailSent
             // 
@@ -266,7 +274,7 @@
             BackColor = Color.White;
             ClientSize = new Size(1264, 681);
             Controls.Add(label3);
-            Controls.Add(RecievedMails);
+            Controls.Add(SentMails);
             Controls.Add(button6);
             Controls.Add(button4);
             Controls.Add(button7);
@@ -278,7 +286,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)RecievedMails).EndInit();
+            ((System.ComponentModel.ISupportInitialize)SentMails).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -296,7 +304,7 @@
         private Button button9;
         private Button button3;
         private Label label3;
-        private DataGridView RecievedMails;
+        private DataGridView SentMails;
         private Button button6;
         private Button button4;
         private Button button7;
